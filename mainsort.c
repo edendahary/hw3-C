@@ -2,10 +2,11 @@
 #include"isort.h"
 #ifndef ISORT_C
 #define ISORT_C
+#define LEN 50
 int main(){
-    int arr[50];
+    int arr[LEN];
     int *a;
-    for(int i=0;i<50; i++){
+    for(int i=0;i<LEN; i++){
         printf("Enter Ur Numbers : ");
         scanf("%d",&arr[i]);
     }
